@@ -1,0 +1,19 @@
+{
+    "status": true,
+    "data": [
+        {
+            "tradingsymbol": "TCS-EQ",
+            "exchange": "NSE",
+            "quantity": 10,
+            "average_price": 3300,
+            "product": "CNC"
+        },
+        {
+            "tradingsymbol": "INFY-EQ",
+            "exchange": "NSE",
+            "quantity": 5,
+            "average_price": 1500,
+            "product": "CNC"
+        }
+    ]
+}

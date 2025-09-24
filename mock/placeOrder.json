@@ -1,0 +1,7 @@
+{
+    "status": "success",
+    "data": {
+        "orderid": "MOCK1234"
+    },
+    "message": "Order placed successfully (Mock)"
+}
