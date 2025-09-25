@@ -1,8 +1,8 @@
-const express = require('express');
-const { fetchMarkets } = require('../controllers/marketsController');
+import express from 'express';
+import { getMarketFeeds } from '../controllers/marketController.js';
 
 const router = express.Router();
 
-router.get('/', fetchMarkets);
+router.get('/feeds', getMarketFeeds);
 
-module.exports = router;
+export default router;

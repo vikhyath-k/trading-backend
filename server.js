@@ -14,6 +14,10 @@ app.use(express.json());
 const newsRoutes = require('./routes/newsRoutes');
 app.use('/api/news', newsRoutes);
 
+// Market feeds route
+const marketRoutes = require('./routes/marketRoutes'); // new route
+app.use('/api/market', marketRoutes);
+
 // Error Handling Middleware (optional)
 const errorHandler = require('./middleware/errorHandler');
 app.use(errorHandler);
